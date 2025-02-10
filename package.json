@@ -27,7 +27,6 @@
   },
   "homepage": "https://github.com/OmkarBhosale06/buildwiz#readme",
   "dependencies": {
-    "buildwiz": "^1.0.2",
     "express": "^4.21.2",
     "minimist": "^1.2.8"
   },
