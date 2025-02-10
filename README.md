@@ -17,20 +17,20 @@ A flexible and chainable JavaScript library for generating Dockerfiles dynamical
 You can install the package via npm:
 
 ```sh
-npm install buildfile-generator
+npm install buildwiz
 ```
 
 or via yarn:
 
 ```sh
-yarn add buildfile-generator
+yarn add buildwiz
 ```
 
 ## Usage
 
 ### Basic Example
 ```javascript
-const BuildFileGenerator = require('buildfile-generator');
+const BuildFileGenerator = require('buildwiz');
 
 const generator = new BuildFileGenerator();
 generator
