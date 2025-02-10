@@ -30,9 +30,9 @@ yarn add buildwiz
 
 ### Basic Example
 ```javascript
-const BuildFileGenerator = require('buildwiz');
+const DockerfileWiz = require('buildwiz');
 
-const generator = new BuildFileGenerator();
+const generator = new DockerfileWiz();
 generator
     .from('node:18')
     .workdir('/app')
@@ -45,7 +45,7 @@ generator
 
 ### Multi-Stage Build Example
 ```javascript
-const generator = new BuildFileGenerator();
+const generator = new DockerfileWiz();
 generator
     .addStage('builder', 'node:18')
     .workdir('/app')
