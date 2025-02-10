@@ -1,6 +1,6 @@
 {
   "name": "buildwiz",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "app.js",
   "scripts": {
     "test": "jest --coverage",
@@ -27,12 +27,13 @@
   },
   "homepage": "https://github.com/OmkarBhosale06/buildwiz#readme",
   "dependencies": {
+    "buildwiz": "^1.0.2",
     "express": "^4.21.2",
     "minimist": "^1.2.8"
   },
   "devDependencies": {
-    "jest": "^29.0.0",
-    "eslint": "^8.0.0"
+    "eslint": "^8.0.0",
+    "jest": "^29.0.0"
   },
   "engines": {
     "node": ">=14"

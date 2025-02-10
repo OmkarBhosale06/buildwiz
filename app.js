@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-class BuildFileGenerator {
+class DockerfileWiz {
     constructor(params = {}) {
         this.params = params;
         this.dockerfile = '';
@@ -140,4 +140,4 @@ class BuildFileGenerator {
 
 
 
-module.exports = BuildFileGenerator;
+module.exports = DockerfileWiz;
